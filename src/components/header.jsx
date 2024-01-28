@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/logo.png';
+import logo from '../assets/Images/logo.png';
 import { useState } from 'react';
 import {HiStar, HiMagnifyingGlass,
         HiHome, HiPlayCircle, HiTv } from 'react-icons/hi2';
