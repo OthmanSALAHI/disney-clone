@@ -4,7 +4,7 @@ import { useState } from 'react';
 import {HiStar, HiMagnifyingGlass,
         HiHome, HiPlayCircle, HiTv } from 'react-icons/hi2';
 import { HiPlus, HiDotsVertical } from 'react-icons/hi';
-import HeaderItem from './headerItem';
+import HeaderItem from './HeaderItem';
 function Header() {
     const [toggle,setToggle] = useState(false);
     const menu = [
