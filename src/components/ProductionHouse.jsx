@@ -29,7 +29,7 @@ function ProductionHouse() {
             hover:scale-110 transition-all duration-100 ease-in-out 
             cursor-pointer shadow-xl shadow-black'>
                 <video src={item.video} autoPlay loop playsInline 
-                className='absolute top-0 rounded-md z-[-1] opacity-1 hover:opacity-50'/>
+                className='absolute top-0 rounded-md z-[0] opacity-1 hover:opacity-50'/>
                 <img src={item.image} className='w-full z[1]' />
             </div>
         ))}
