@@ -16,8 +16,15 @@ import nationalVideo from '../assets/Videos/national-geographic.mp4';
 
 function ProductionHouse() {
     const ProductionHouse = [
-        {name : 'Disney', image: disney, video: disneyVideo},
-        {name : 'Marvel', image: marvel, video: marvelVideo},
+        {
+            name : 'Disney', 
+            image: disney,
+            video: disneyVideo
+        },
+        {
+            name : 'Marvel', 
+            image: marvel,
+            video: marvelVideo},
         {name : 'Pixar', image: pixar, video: pixarVideo},
         {name : 'Star Wars', image: starwars, video: starwarsVideo},
         {name : 'National Geographic', image: national, video: nationalVideo},
