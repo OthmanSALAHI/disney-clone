@@ -27,11 +27,14 @@ function ProductionHouse() {
             video: marvelVideo
         },
         {
-            name : 'Pixar', image: pixar, video: pixarVideo},
+            name : 'Pixar', 
+            image: pixar, video: pixarVideo},
         {
-            name : 'Star Wars', image: starwars, video: starwarsVideo},
+            name : 'Star Wars',
+            image: starwars, video: starwarsVideo},
         {
-            name : 'National Geographic', image: national, video: nationalVideo},
+            name : 'National Geographic', 
+            image: national, video: nationalVideo},
     ];
   return (
     <div className='flex gap-2 md:gap-5 px-5 md:px-16'>
