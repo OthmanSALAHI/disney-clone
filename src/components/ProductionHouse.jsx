@@ -28,10 +28,14 @@ function ProductionHouse() {
         },
         {
             name : 'Pixar', 
-            image: pixar, video: pixarVideo},
+            image: pixar, 
+            video: pixarVideo
+        },
         {
             name : 'Star Wars',
-            image: starwars, video: starwarsVideo},
+            image: starwars, 
+            video: starwarsVideo
+        },
         {
             name : 'National Geographic', 
             image: national, video: nationalVideo},
