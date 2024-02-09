@@ -42,7 +42,8 @@ function Header() {
                 
             </div>
         </div>
-        <img src='https://wallpapers.com/images/hd/netflix-profile-pictures-5yup5hd2i60x7ew3.jpg' className='w-[40px] rounded-full' />
+        <img src='https://wallpapers.com/images/hd/netflix-profile-pictures-5yup5hd2i60x7ew3.jpg'
+                className='w-[40px] rounded-full' />
     </div>
   );
 }
