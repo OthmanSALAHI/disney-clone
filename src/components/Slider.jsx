@@ -38,7 +38,8 @@ function Slider() {
     <div>
         <HiChevronLeft onClick={()=>slideLeft(elementRef.current)} 
             className='hidden md:block text-white text-[30px] absolute mx-8 mt-[160px] cursor-pointer' />
-        <HiChevronRight onClick={()=>slideRight(elementRef.current)} className='hidden md:block text-white text-[30px] mx-8 mt-[160px] cursor-pointer absolute right-0' />
+        <HiChevronRight onClick={()=>slideRight(elementRef.current)} 
+            className='hidden md:block text-white text-[30px] mx-8 mt-[160px] cursor-pointer absolute right-0' />
         <div className='flex overflow-x-auto w-full px-16 py-4 scrollbar-hide scroll-smooth' ref={elementRef}>
             {ListMovies.map((item,key)=>(
                 <img src={BASE_URL_IMAGE+item.backdrop_path} 
