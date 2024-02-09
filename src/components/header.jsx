@@ -34,7 +34,8 @@ function Header() {
             </div>
             <div className='flex md:hidden gap-8' onClick={()=>setToggle(!toggle ?true : false)}>
                     <HeaderItem Icon={HiDotsVertical} name={''} />
-                {toggle?<div className='absolute mt-5 bg-[#121212] border-[1px] border-gray-600 p-3 px-5 py-4'>
+                {toggle?<div className='absolute mt-5 bg-[#121212]
+                                border-[1px] border-gray-600 p-3 px-5 py-4'>
                     {menu.map((item, key) =>key >= 3 && (
                             <HeaderItem Icon={item.icon} name={item.name}/>
                     ))}
