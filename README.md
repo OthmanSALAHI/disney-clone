@@ -26,14 +26,14 @@ The Disney Clone project aims to recreate the Disney website using ReactJS. It p
 
 To install and run the Disney Clone project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/disney-clone.git`
+1. Clone the repository: `git clone https://github.com/othmansalahi/disney-clone.git`
 2. Navigate to the project directory: `cd disney-clone`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
 
 ## Usage
 
-Once the development server is running, you can access the Disney Clone website by opening your browser and navigating to `http://localhost:3000`. From there, you can explore the different sections of the website, search for movies or characters, and interact with the available features.
+Once the development server is running, you can access the Disney Clone website by opening your browser and navigating to `http://localhost:5173`. From there, you can explore the different sections of the website, search for movies or characters, and interact with the available features.
 
 ## Contributing
 
