@@ -1,1 +1,7 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /secret-page.html
+Allow: /public/
+Allow: /images/
 // this file is not required
